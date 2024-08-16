@@ -37,7 +37,7 @@ const SignIn = () => {
     }}
   
   return (
-    <SafeAreaView className="bg-slate-400 h-full">
+    <SafeAreaView className="bg-neutral-700 h-full">
       <ScrollView>
         <View className="w-full justify-center min-h-[85vh] px-4 my-6">
           <Image
@@ -82,7 +82,7 @@ const SignIn = () => {
             <Text className="text-lg text-gray-100 font-pregular">
               Dont`t have account?
             </Text>
-            <Link href="/sign-up" className="text-lg font-psemibold text-yellow-400	">Sign Up</Link>
+            <Link href="/sign-up" className="text-lg font-psemibold text-orange-100	">Sign Up</Link>
           </View>
         </View>
       </ScrollView>

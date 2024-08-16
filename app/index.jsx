@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { ScrollView, Text, View, Image } from "react-native"; // Import Image
+import { ScrollView, Text, View, Image } from "react-native"; 
 import { Redirect, router} from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -8,7 +8,7 @@ import CustomButton from "../components/CustomButton";
 
 export default function App() {
   return (
-    <SafeAreaView className="bg-slate-400">
+    <SafeAreaView className="bg-neutral-700">
       <ScrollView contentContainerStyle={{ height: "100%" }}>
         <View className="w-full justify-center items-center min-h-[90vh] px-4">
           <Image
@@ -25,7 +25,7 @@ export default function App() {
           <View className="relative mt-5">
             <Text className="text-3xl text-white font-bold text-center">
               Welcome to{" "}
-              <Text className="text-yellow-400	">
+              <Text className="text-orange-100">
                 GoDog
               </Text>
             </Text>
