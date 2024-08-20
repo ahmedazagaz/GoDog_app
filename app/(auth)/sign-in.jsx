@@ -25,6 +25,9 @@ const SignIn = () => {
 
     try {
       await signIn(form.email, form.password);
+
+      // set it to global state...
+
       router.replace("/home");
     } catch (error) {
       if (error.message.includes("Creation of a session is prohibited")) {
