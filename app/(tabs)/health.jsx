@@ -2,7 +2,7 @@ import { ScrollView, View, Text, TouchableOpacity, Image } from "react-native";
 import React from "react";
 import { images } from "../../constants";
 
-const Create = () => {
+const Health = () => {
   return (
     <ScrollView className="flex-1 bg-neutral-700 p-7">
       {/* Reminders Section */}
@@ -106,4 +106,4 @@ const Create = () => {
   );
 };
 
-export default Create;
+export default  Health ;
