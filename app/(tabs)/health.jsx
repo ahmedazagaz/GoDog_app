@@ -50,7 +50,7 @@ const Health = () => {
             </View>
             <View className="w-24 p-2">
               <Image
-                source={images.health4}  // Ajouter une image pour cet article
+                source={images.health4} 
                 className="w-full h-20 rounded-lg mb-2 border-2"
                 style={{ borderColor: '#D0BEA0' }}
               />
