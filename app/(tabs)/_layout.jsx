@@ -48,26 +48,12 @@ const TabsLayout = () => {
                                 icon={icons.home}
                                 color={color}
                                 focused={focused}
-                                name="Lessons"
+                                name="Home"
                             />
                         ),
                     }}
                 />
-                    <Tabs.Screen
-                    name="health"
-                    options={{
-                        title: "Health",
-                        headerShown: false,
-                        tabBarIcon: ({ color, focused }) => (
-                            <TabIcon
-                                icon={icons.plus}
-                                color={color}
-                                focused={focused}
-                                name="Health"
-                            />
-                        ),
-                    }}
-                />
+
                 <Tabs.Screen
                     name="bookmark"
                     options={{
@@ -78,12 +64,26 @@ const TabsLayout = () => {
                                 icon={icons.bookmark}
                                 color={color}
                                 focused={focused}
-                                name="My dog"
+                                name="Bookmark"
                             />
                         ),
                     }}
                 />
-
+                    <Tabs.Screen
+                    name="create"
+                    options={{
+                        title: "Create",
+                        headerShown: false,
+                        tabBarIcon: ({ color, focused }) => (
+                            <TabIcon
+                                icon={icons.plus}
+                                color={color}
+                                focused={focused}
+                                name="Create"
+                            />
+                        ),
+                    }}
+                />
                 <Tabs.Screen
                     name="profile"
                     options={{
