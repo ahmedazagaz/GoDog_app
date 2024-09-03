@@ -33,7 +33,7 @@ const TabsLayout = () => {
                     tabBarStyle: {
                         backgroundColor: "#27272a",
                         borderTopWidth:1,
-                        borderTopColor: "#232539",
+                        borderTopColor: "#27272a",
                         height:84,
                     }
                 }}

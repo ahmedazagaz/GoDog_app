@@ -19,17 +19,17 @@ export default function App() {
         <View className="w-full justify-center items-center min-h-[90vh] px-4">
           <Image
             source={images.logo}
-            className="w-[150px] h-[70px]"
+            className="w-[190px] h-[70px]"
             resizeMode="contain"
           />
 
           <Image
             source={images.cards}
-            className="max-w-[380px] w-full h-[250px]"
+            className="max-w-[385px] w-full h-[250px]"
             resizeMode="contain"
           />
           <View className="relative mt-5">
-            <Text className="text-3xl text-white font-bold text-center">
+            <Text className="text-2xl text-white font-bold text-center">
               Welcome to{" "}
               <Text className="text-orange-100">
               TrainMyDog 
