@@ -45,10 +45,10 @@ const SignUp = () => {
           <Image
             source={images.logo}
             resizeMode="contain"
-            className="w-[110px] h-[35px]"
+            className="w-[140px] h-[35px]"
           />
           <Text className="text-2xl text-white font-semibold mt-7">
-            Sign up to GoDog
+            Sign up to TrainMyDog 
           </Text>
 
           <FormField

@@ -46,10 +46,10 @@ const SignIn = () => {
           <Image
             source={images.logo}
             resizeMode="contain"
-            className="w-[110px] h-[35px]"
+            className="w-[140px] h-[35px]"
           />
           <Text className="text-2xl text-white font-semibold mt-7">
-            Log in to GoDog
+            Log in to TrainMyDog 
           </Text>
 
           <FormField

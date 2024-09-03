@@ -1,7 +1,7 @@
 import { Text, FlatList, View, Image, RefreshControl, Alert } from "react-native";
 import React, { useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { images } from "../../constants"; // Assurez-vous que "images" est correctement importé
+import { images } from "../../constants"; 
 import SearchInput from "../../components/SearchInput"; 
 import Trending from "../../components/Trending"; 
 import EmptyState from "../../components/EmptyState";
@@ -40,7 +40,7 @@ const Home = () => {
                         <View className="justify-between items-start flex-row mb-6">
                             <View>
                                 <Text className="font-pmedium text-sm text-gray-100">Welcome 👋</Text>
-                                <Text className="text-2xl font-psemibold text-white">Ahmed</Text>
+                                <Text className="text-2xl font-psemibold text-white">Nate Schoemer</Text>
                             </View>
                             <View className="mt-1.5">
                                 <Image

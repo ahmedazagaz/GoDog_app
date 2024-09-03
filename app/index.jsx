@@ -19,7 +19,7 @@ export default function App() {
         <View className="w-full justify-center items-center min-h-[90vh] px-4">
           <Image
             source={images.logo}
-            className="w-[130px] h-[70px]"
+            className="w-[150px] h-[70px]"
             resizeMode="contain"
           />
 
@@ -32,14 +32,14 @@ export default function App() {
             <Text className="text-3xl text-white font-bold text-center">
               Welcome to{" "}
               <Text className="text-orange-100">
-                GoDog
+              TrainMyDog 
               </Text>
             </Text>
           </View>
 
           <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
-            Track your dog's health and happiness with ease. Teach new tricks
-            and plan walking activities, all in one app!
+            Share, Learn, and Elevate Your Dog Training Skills
+
           </Text>
 
           <CustomButton
