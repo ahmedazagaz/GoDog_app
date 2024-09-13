@@ -25,7 +25,7 @@ const SearchInput = () => {
           if (pathname.startsWith("/search")) {
             router.setParams({ query });
           } else {
-            router.push(`/search/${query}`); // Utilisation des backticks pour interpolation
+            router.push(`/search/${query}`); 
           }
         }}
       >
