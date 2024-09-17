@@ -39,7 +39,7 @@ const Profile = () => {
               onPress={logout}
             >
               <Image source={icons.logout} 
-              resizeMode="contain" className="w-6 h-6"/>
+              resizeMode="contain" className="w-7 h-7"/>
             </TouchableOpacity>
             <View className="w-20 h-20 border border-orange-200 rounded-full justify-center items-center">
               <Image 
