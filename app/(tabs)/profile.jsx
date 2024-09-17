@@ -1,4 +1,4 @@
-import { Text, FlatList, View, Image, RefreshControl, Alert, TouchableOpacity } from "react-native";
+import { Text, FlatList, View, Image,TouchableOpacity } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import EmptyState from "../../components/EmptyState";
 import { getUserPosts, signOut } from "../../lib/appwrite";
@@ -35,7 +35,7 @@ const Profile = () => {
         ListHeaderComponent={() => (
           <View className="w-full justify-center items-center mt-6 mb-12 px-4">
             <TouchableOpacity
-              className="w-full items-end mb-10"
+              className="w-full items-end mb-5"
               onPress={logout}
             >
               <Image source={icons.logout} 
@@ -69,7 +69,6 @@ const Profile = () => {
              subtitle="Followers"
              titleStyles="text-xl"
             />
-           
 
             </View>
           </View>
