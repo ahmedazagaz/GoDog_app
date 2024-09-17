@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ahmedazagaz/TrainMyDog_app">
-    <img src="assets/icon.png" alt="Logo" width="420" height="420">
+    <img src="assets/icon.png" alt="Logo" width="360" height="420">
   </a>
 
   <h1 align="center">Project TrainMyDog</h1>
