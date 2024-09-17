@@ -7,36 +7,3 @@ Do you want to take your dog training to the next level? **TrainMyDog** is the p
 Lien du site : [TrainMyDog App](https://trainmydog.framer.website)  
 Blog du projet final : [Blog TrainMyDog](https://medium.com/mon-blog/trainmydog-project)  
 Auteur : [Ahmed Azagaz sur LinkedIn](https://www.linkedin.com/in/ahmed-azagaz-0678b7281/)
-
-## Installation
-
-Pour installer et exécuter l'application localement :
-
-1. Clonez ce dépôt :
-
-   ```bash
-   git clone https://github.com/ahmedazagaz/TrainMyDog_app.git
-    ```
-
-2. Accédez au répertoire du projet :
-
-       ```bash
-    cd TrainMyDog_app
-    ```
-3. Installez les dépendances :
-
-       ```bash
-    npm install
-     ```
-
-4. Lancez l'application avec Expo :
-
-       ```bash
-    npx expo start
-     ```
-
-
-
-
-
-
