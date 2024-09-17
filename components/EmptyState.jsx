@@ -8,7 +8,7 @@ const EmptyState = ({title, subtitle }) => {
     return (
         <View className="justify-center items-center px-10">
             <Image source={images.empty} className="w-[270px]
-            h-[98px]" resizeMode="contain"/>
+            h-[150px]" resizeMode="contain"/>
 
              <Text className="text-xl text-center
               font-psemibold text-white mt-2">
