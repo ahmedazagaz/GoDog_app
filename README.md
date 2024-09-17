@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ahmedazagaz/TrainMyDog_app">
-    <img src="images/logo.svg" alt="Logo" width="420" height="420">
+    <img src="assets/icon.png" alt="Logo" width="420" height="420">
   </a>
 
   <h1 align="center">Project TrainMyDog</h1>
@@ -80,13 +80,11 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- Node.js
-- Appwrite setup (backend)
-- Tailwind CSS for styling
 - Figma for design
 - Expo for mobile app development
-
-
+- React Native for mobile app development
+- Tailwind CSS for styling
+- Appwrite for backend development
 
 
 ## Installation
