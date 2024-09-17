@@ -13,11 +13,11 @@ Auteur : [Ahmed Azagaz sur LinkedIn](https://www.linkedin.com/in/ahmed-azagaz-06
 Pour installer et exécuter l'application localement :
 
 1. Clonez ce dépôt :
+      
+ ```bash
+     git clone https://github.com/ahmedazagaz/TrainMyDog_app.git
 
-   ```bash
-   git clone https://github.com/ahmedazagaz/TrainMyDog_app.git
-    ```
-
+  ```
 2. Accédez au répertoire du projet :
       
  ```bash
@@ -33,3 +33,12 @@ Pour installer et exécuter l'application localement :
  ```bash
    npx expo start
  ```
+
+## Usage
+
+L'application est organisée autour de quatre sections principales :
+
+*Home* : Accédez aux vidéos populaires et les plus récentes sur le dressage canin.
+*Bookmark* : Sauvegardez vos vidéos préférées pour les visionner plus tard.
+*Create* : Téléchargez vos propres vidéos de dressage canin et partagez vos expériences avec la communauté.
+*Profile* : Gérez votre compte, consultez vos vidéos postées, et suivez votre activité.
