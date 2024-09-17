@@ -89,36 +89,26 @@ To get a local copy up and running follow these simple steps.
 
 ## Installation
 
-Pour installer et exécuter l'application localement :
-
-1. Clonez ce dépôt :
+1. Clone the repo:
       
  ```bash
   git clone https://github.com/ahmedazagaz/TrainMyDog_app.git
 
   ```
-2. Accédez au répertoire du projet :
+2. Install dependencies:
       
  ```bash
   cd TrainMyDog_app
+  npm install
   ```
-3. Installez les dépendances :
+3. Connect Appwrite to the backend by following Appwrite documentation for setup:
 
- ```bash
-   npm install
- ```
-4. Lancez l'application avec Expo :
+  **·** Set up your database, authentication, and storage.
+  **·** Update the necessary API keys and endpoints in the project.
+4. Start the Expo server:
 
  ```bash
    npx expo start
  ```
-
-## Usage
-
-L'application est organisée autour de quatre sections principales :
-
-**Home** : Accédez aux vidéos populaires et les plus récentes sur le dressage canin.
-**Bookmark** : Sauvegardez vos vidéos préférées pour les visionner plus tard.
-**Create** : Téléchargez vos propres vidéos de dressage canin et partagez vos expériences avec la communauté.
-**Profile** : Gérez votre compte, consultez vos vidéos postées, et suivez votre activité.
+5. Use Expo Go to run the app on your device by scanning the QR code generated.
 
