@@ -16,18 +16,19 @@ Pour installer et exécuter l'application localement :
 
    ```bash
    git clone https://github.com/ahmedazagaz/TrainMyDog_app.git
+    ```
 
-2. **Accédez au répertoire du projet :**
+2. Accédez au répertoire du projet :
       
  ```bash
   cd TrainMyDog_app
   ```
-3. **Installez les dépendances :**
+3. Installez les dépendances :
 
  ```bash
    npm install
  ```
-4. **Lancez l'application avec Expo :**
+4. Lancez l'application avec Expo :
 
  ```bash
    npx expo start
