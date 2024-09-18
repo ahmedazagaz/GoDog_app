@@ -37,7 +37,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Screenshot][product-screenshot]](https://trainmydog.framer.website)
+<img src = "images/intro.png" height="400" width = "640" >
 
 **TrainMyDog** is a community-driven platform for dog lovers who want to share, learn, and improve their dog training skills. The app enables users to watch training tutorials, upload their own videos, and engage with other trainers.
 
