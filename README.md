@@ -31,7 +31,6 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [Contact](#contact)
 
@@ -103,12 +102,36 @@ To get a local copy up and running follow these simple steps.
   ```
 3. Connect Appwrite to the backend by following Appwrite documentation for setup:
 
-  **·** Set up your database, authentication, and storage.
-  **·** Update the necessary API keys and endpoints in the project.
+-Set up your database, authentication, and storage.
+-Update the necessary API keys and endpoints in the project.
+
 4. Start the Expo server:
 
  ```bash
    npx expo start
  ```
 5. Use Expo Go to run the app on your device by scanning the QR code generated.
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+L'application est organisée autour de quatre sections principales :
+
+**Home** : Accédez aux vidéos populaires et les plus récentes sur le dressage canin.
+**Bookmark** : Sauvegardez vos vidéos préférées pour les visionner plus tard.
+**Create** : Téléchargez vos propres vidéos de dressage canin et partagez vos expériences avec la communauté.
+**Profile** : Gérez votre compte, consultez vos vidéos postées, et suivez votre activité.
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+Contributions are welcome! If you have any suggestions, bug fixes, or feature requests, please open an issue or submit a pull request.
+
+<!-- CONTACT -->
+
+Contact
+**LinkedIn:** [Ahmed Azagaz](https://www.linkedin.com/in/mochatr/)
+
+
 
