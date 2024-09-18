@@ -40,7 +40,7 @@
 ![image](https://github.com/ahmedazagaz/TrainMyDog_app/blob/main/assets/images/intro.png)
 
 
-**TrainMyDog** is a community-driven platform for dog lovers who want to share, learn, and improve their dog training skills. The app enables users to watch training tutorials, upload their own videos, and engage with other trainers.
+Do you want to take your dog training to the next level? **TrainMyDog** is the perfect platform for dog lovers like you! Join a community where you can share your own training tips, learn from professionals, and follow a wide range of dog training tutorials. Whether you're a beginner or an experienced trainer, there's something for everyone.
 
 🐕 **What we offer for dog trainers**:
 
