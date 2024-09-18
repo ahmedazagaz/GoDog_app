@@ -130,7 +130,8 @@ Contributions are welcome! If you have any suggestions, bug fixes, or feature re
 
 <!-- CONTACT -->
 
-Contact
+## Contact
+
 **LinkedIn:** [Ahmed Azagaz](https://www.linkedin.com/in/mochatr/)
 
 
