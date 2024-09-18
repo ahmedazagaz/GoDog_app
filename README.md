@@ -37,7 +37,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src = "images/intro.png" height="400" width = "640" >
+![image](https://github.com/ahmedazagaz/TrainMyDog_app/blob/main/assets/images/intro.png)
+
 
 **TrainMyDog** is a community-driven platform for dog lovers who want to share, learn, and improve their dog training skills. The app enables users to watch training tutorials, upload their own videos, and engage with other trainers.
 
