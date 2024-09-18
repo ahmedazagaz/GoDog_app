@@ -116,12 +116,12 @@ To get a local copy up and running follow these simple steps.
 
 ## Usage
 
-L'application est organisée autour de quatre sections principales :
+The application is organized automatically from the main sections:
 
-- **Home** : Accédez aux vidéos populaires et les plus récentes sur le dressage canin.
-- **Bookmark** : Sauvegardez vos vidéos préférées pour les visionner plus tard.
-- **Create** : Téléchargez vos propres vidéos de dressage canin et partagez vos expériences avec la communauté.
-- **Profile** : Gérez votre compte, consultez vos vidéos postées, et suivez votre activité.
+- **Home**: Access popular videos and more recent ones on the dressage can.
+- **Bookmark**: Save your favorite videos for better vision.
+- **Create**: Download your favorite dress videos and share your experiences with the community.
+- **Profile**: Get your account, check out your video posts, and see your activity.
 
 <!-- CONTRIBUTING -->
 
