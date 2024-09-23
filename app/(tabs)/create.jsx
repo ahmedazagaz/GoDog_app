@@ -1,8 +1,9 @@
-import { SafeAreaView, View,Text, ScrollView, TouchableOpacity } from "react-native";
+import { SafeAreaView, View,Text, ScrollView, TouchableOpacity ,Image} from "react-native";
 import React, { useState } from "react"
-import {Video, resizeMode} from "expo-av"
+import {ResizeMode, Video, resizeMode} from "expo-av"
 
 import FormField from "../../components/FormField";
+import { icons } from "../../constants";
 const Create = () => {
   const [uploading, setUploading] = useState(false);
   const [form, setForm] = useState ({
@@ -37,14 +38,28 @@ const Create = () => {
               <TouchableOpacity>
                 {form.video ?(
                   <Video
-
+                  source={{uri: form.video.uri}}
+                  className="w-full h-64 rounded-2xl"
+                  useNativeControls
+                  resizeMode={ResizeMode.COVER}
+                  isLooping
                   />
                 ):(
                   <View className="w-full h-40 px-4 bg-neutral-600 rounded-2xl justify-center items-center">
+                      <Image source={icons.upload} resizeMode="contain" className="w-1/3 h-1/3">
+
+                      </Image>
 
                   </View>
                 )}
               </TouchableOpacity>
+            </View>
+
+            <View className="mt-7 space-y-2">
+            <Text className="text-base text-gray-100
+              font-psemibold">
+                Thumbnail Image
+              </Text>
             </View>
           </ScrollView>
         </SafeAreaView>
