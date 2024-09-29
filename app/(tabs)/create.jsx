@@ -1,7 +1,8 @@
-import { SafeAreaView, View, Text, ScrollView, TouchableOpacity, Image } from "react-native";
+import { SafeAreaView, View, Text, ScrollView, TouchableOpacity, Image, Alert } from "react-native";
 import React, { useState } from "react";
 import { ResizeMode, Video } from "expo-av";
-
+import * as DocumentPicker from "expo-document-picker";
+import { router } from "expo-router"
 import CustomButton from "../../components/CustomButton";
 import FormField from "../../components/FormField";
 import { icons } from "../../constants";
@@ -15,8 +16,53 @@ const Create = () => {
     prompt: ""
   });
 
-  // Function to handle form submission
-  const submit = () => {};
+  
+  const openPicker = async (selectType) => {
+    const result = await DocumentPicker.getDocumentAsync
+    ({
+       type: selectType === "image"
+       ? ["image/png", "image/jpg"]
+       : ["video/mp4", "video/gif"]
+    })
+
+    if(!result.canceled) {
+      if(selectType === "image"){
+        setForm({ ...form, thumbnail: result.assets[0]})
+      }
+      if(selectType === "video"){
+        setForm({ ...form, video: result.assets[0]})
+      }
+    } else {
+     setTimeout(()=>{
+      Alert.alert("Document picked", JSON.stringify
+        (result, null, 2))
+     }, 100)
+    } 
+  };
+
+  const submit = () => {
+    if (!form,prompt || !form.title || !form.thumbnail || !form.video) {
+      return Alert.alert("Please fill in all the fields")
+    }
+    setUploading(true)
+
+    try {
+
+      
+      Alert.alert("Success", "Post uploaded succeessfully")
+      router.push("/home")
+    } catch (error){
+      Alert.alert("Error", error.message)
+    } finally {
+      setForm({
+        title: "",
+        video: null,
+        thumbnail: null,
+        prompt: ""
+      })
+      setUploading(false);
+      }
+  };
 
   return (
     <SafeAreaView className="bg-neutral-700 h-full">
@@ -41,7 +87,8 @@ const Create = () => {
             Upload Video
           </Text>
 
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => openPicker
+            ("video")}>
             {form.video ? (
               <Video
                 source={{ uri: form.video.uri }}
@@ -68,7 +115,8 @@ const Create = () => {
             Thumbnail Image
           </Text>
 
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => openPicker
+            ("image")}>
             {form.thumbnail ? (
               <Image
                 source={{ uri: form.thumbnail.uri }}
