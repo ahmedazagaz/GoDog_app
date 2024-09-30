@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/ahmedazagaz/TrainMyDog_app">
+  <a href="https://github.com/ahmedazagaz/TrainMyDog">
     <img src="assets/icon.png" alt="Logo" width="300" height="300">
   </a>
 
@@ -15,9 +15,9 @@
     <br />
     <a href="https://trainmydog.framer.website">View Demo</a>
     ·
-    <a href="https://github.com/ahmedazagaz/TrainMyDog_app/issues">Report Bug</a>
+    <a href="https://github.com/ahmedazagaz/TrainMyDog/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ahmedazagaz/TrainMyDog_app/issues">Request Feature</a>
+    <a href="https://github.com/ahmedazagaz/TrainMyDog/issues">Request Feature</a>
   </p>
 </p>
 
@@ -37,7 +37,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![image](https://github.com/ahmedazagaz/TrainMyDog_app/blob/main/assets/images/intro.png)
+![image](https://github.com/ahmedazagaz/TrainMyDog/blob/main/assets/images/intro.png)
 
 
 Do you want to take your dog training to the next level? **TrainMyDog** is the perfect platform for dog lovers like you! Join a community where you can share your own training tips, learn from professionals, and follow a wide range of dog training tutorials. Whether you're a beginner or an experienced trainer, there's something for everyone.
@@ -92,13 +92,13 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repo:
       
  ```bash
-  git clone https://github.com/ahmedazagaz/TrainMyDog_app.git
+  git clone https://github.com/ahmedazagaz/TrainMyDog.git
 
   ```
 2. Install dependencies:
       
  ```bash
-  cd TrainMyDog_app
+  cd TrainMyDog
   npm install
   ```
 3. Connect Appwrite to the backend by following Appwrite documentation for setup:
